@@ -25,10 +25,10 @@ This project was created to practice **React fundamentals**: components, props, 
 ## 📁 Project Structure
 
 src/
-├── App.jsx
-├── components/
-│ ├── Button.jsx
-│ ├── Statistics.jsx
+├── App.jsx  
+├── components/  
+│ ├── Button.jsx  
+│ ├── Statistics.jsx  
 │ └── StatisticLine.jsx
 
 ## 🚀 Getting Started
