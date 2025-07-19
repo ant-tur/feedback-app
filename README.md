@@ -1,12 +1,52 @@
-# React + Vite
+# Feedback App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that collects user feedback and displays basic statistics in real time.
 
-Currently, two official plugins are available:
+## 💡 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app allows users to leave feedback in three categories:  
+👍 Good, 😐 Neutral, and 👎 Bad.
 
-## Expanding the ESLint configuration
+It then calculates and displays:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Total feedback count
+- Average score
+- Percentage of positive feedback
+
+This project was created to practice **React fundamentals**: components, props, `useState`, conditional rendering, and data calculation.
+
+## 🔧 Technologies Used
+
+- React (Vite)
+- JSX
+- Functional Components
+- useState Hook
+
+## 📁 Project Structure
+
+src/
+├── App.jsx
+├── components/
+│ ├── Button.jsx
+│ ├── Statistics.jsx
+│ └── StatisticLine.jsx
+
+## 🚀 Getting Started
+
+1. Clone the repo  
+   `git clone https://github.com/ant-tur/feedback-app.git`
+
+2. Install dependencies  
+   `npm install`
+
+3. Start the dev server  
+   `npm run dev`
+
+4. Open in browser  
+   `http://localhost:5173`
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
